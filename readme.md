@@ -1,4 +1,4 @@
-# gulp-svg2json [![Build Status](https://travis-ci.org/hull/gulp-svg2json.svg?branch=master)](https://travis-ci.org/hull/gulp-svg2json)
+# gulp-svg2json
 
 > A very simple gulp module that will take a folder of SVG files and turn it into one JSON file. Useful for react users
 
