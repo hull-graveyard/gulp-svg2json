@@ -1,0 +1,35 @@
+{
+  "name": "gulp-svg2json",
+  "version": "0.0.0",
+  "description": "A basic SVG-to-JSON converter. useful for React apps",
+  "license": "MIT",
+  "repository": "hull/gulp-svg2json",
+  "author": {
+    "name": "Romain Dardour",
+    "email": "romain@hull.io",
+    "url": "hull.io"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "camelize": "^1.0.0",
+    "cheerio": "^0.19.0",
+    "gulp-util": "^3.0.4",
+    "readable-stream": "^1.0.33",
+    "through2": "^0.6.3",
+    "underscore": "^1.8.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
