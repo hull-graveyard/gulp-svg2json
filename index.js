@@ -10,7 +10,7 @@ var _ = require("underscore"),
     path = require("path");
 
 
-var VALID_ATTRIBUTES=["viewBox", "id", "stroke", "strokewidth", "fill", "fillrule", "transform", "d", "strokelinecap"];
+var VALID_ATTRIBUTES=["viewBox", "id", "stroke", "strokewidth", "fill", "fillrule", "transform", "d", "strokelinecap", "points"];
 // var VALID_ATTRIBUTES=["d"];
 module.exports = function(options) {
 
@@ -84,7 +84,7 @@ module.exports = function(options) {
       contents: new Buffer(out)
     });
     stream.push(output);
-    done()
+    done();
   }
 
   return stream;
